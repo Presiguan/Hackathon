@@ -1,0 +1,25 @@
+.bangs {
+  display: flex;
+  margin: 0;
+  padding: 0px 0px 0px 100px;
+}
+
+.bangs img {
+  margin: 50px;
+  padding: 8px;
+}
+
+.bangs h3 {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(9, 11, 12);
+  justify-content: center;
+  margin-top: -50px;
+}
+
+p {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  color: rgba(10, 4, 4, 0.5);
+}
