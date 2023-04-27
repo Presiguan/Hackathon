@@ -35,7 +35,7 @@ function banner() {
         </div>
       </div>
       <div>
-        <h1>Our Services</h1>
+        <h2 className="display-4 fw-bold m-5">Our Services</h2>
       </div>
     </>
   );

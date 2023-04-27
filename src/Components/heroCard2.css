@@ -1,0 +1,16 @@
+.hero2 {
+  display: flex;
+  margin: 3px;
+  padding: 0px 20px 20px 200px;
+}
+
+.hero2 {
+  padding: 2px 0px 40px 300px;
+}
+
+p {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  color: rgba(10, 4, 4, 0.5);
+}

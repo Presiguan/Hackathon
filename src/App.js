@@ -3,6 +3,7 @@ import Navbar from "./Components/Nav";
 import Banner from "./Components/banner";
 import Card from "./Components/carCards";
 import HeroCard from "./Components/heroCard";
+import HeroCard2 from "./Components/heroCard2";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Banner />
       <HeroCard />
+      <HeroCard2 />
       {/* <Card /> */}
     </>
   );
