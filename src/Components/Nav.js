@@ -69,10 +69,10 @@ function Navbar() {
             </ul>
           </div>
           <div className="Nav-button">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn">
               Login
             </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn">
               Sign up
             </button>
           </div>

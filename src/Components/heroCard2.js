@@ -9,7 +9,7 @@ function HeroCard2() {
       <div className="hero2">
         <div className="row gap-5">
           <div className="col-12 col-md-5 col-4">
-            <div className="card" style={{ width: "24rem" }}>
+            <div className="card" style={{ width: "24rem", height: "24rem" }}>
               <img
                 src={Card}
                 className="card-img-top"
@@ -24,7 +24,7 @@ function HeroCard2() {
             </div>
           </div>
           <div className="col-12 col-sm- col-md-4">
-            <div className="card" style={{ width: "24rem" }}>
+            <div className="card" style={{ width: "24rem", height: "15rem" }}>
               <img
                 src={Card2}
                 className="card-img-top"

@@ -1,11 +1,13 @@
 import React from "react";
 import Rectangle from "../images/Rectangle 42.png";
 import Map from "../images/Frame 176.png";
+import "../Components/download.css";
 
 function Download() {
   return (
     <>
       <div
+        className="download"
         style={{
           position: "inherit",
           margin: "70px",
@@ -43,20 +45,21 @@ function Download() {
           the comfort of your <br />
           phone
         </p>
-        <p
-          style={{
-            position: "absolute",
-            padding: "160px 0px 0px 200px",
-            left: "40px",
-            color: "white",
-            textDecoration: "none",
-          }}
+        {/* <h5
+        
+        // style={{
+        //   position: "absolute",
+        //   padding: "160px 0px 0px 200px",
+        //   left: "40px",
+        //   // color: "white",
+        //   // textDecoration: "none",
+        // }}
         >
           {/* <button className="btn border-0">Download now</button> */}
-          <a href="#" className="text-white">
+        {/* <a href="https://www.example.com" className="text-white">
             Download now
           </a>
-        </p>
+        </h5> */}
 
         <div
           style={{
@@ -69,6 +72,11 @@ function Download() {
           }}
         >
           <img src={Map} alt="Map"></img>
+        </div>
+        <div className="text">
+          <a href="download page" className="text2">
+            Download now
+          </a>
         </div>
       </div>
     </>

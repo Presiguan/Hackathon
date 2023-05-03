@@ -3,13 +3,18 @@
   justify-content: space-between;
 }
 
+.navbar .container-fluid {
+  margin: 0px;
+  padding: 0px 0px;
+}
+
 .navbar .navbar-brand {
   color: black;
   font-weight: 700;
 }
 
 .navbar ul {
-  padding: 0px 0px 0px 120px;
+  padding: 0px 0px 0px 170px;
   font-weight: 600;
 }
 
@@ -18,7 +23,7 @@
 }
 
 .navbar a {
-  color: rgb(14, 110, 170);
+  color: #037b9f;
   font-weight: 500;
 }
 
@@ -28,7 +33,7 @@ h2 {
 
 .Menulist a {
   align-items: center;
-  color: rgb(14, 110, 170);
+  color: #037b9f;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -46,14 +51,11 @@ h2 {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  color: white;
-  background-color: rgb(10, 88, 148);
+  color: #037b9f;
 }
 
-.Nav-button:hover {
+.Nav-button .btn:hover {
   text-decoration: none;
-}
-
-.button:hover {
-  color: rgb(41, 183, 55);
+  color: #eceded;
+  background-color: #037b9f;
 }
