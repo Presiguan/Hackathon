@@ -6,6 +6,7 @@ import HeroCard from "./Components/heroCard";
 import HeroCard2 from "./Components/heroCard2";
 import Hero from "./Components/hero";
 import Download from "./Components/download";
+import Footer from "./Components/footer";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <HeroCard2 />
       <Download />
       <Hero />
+      <Footer />
+
       {/* <Card /> */}
     </>
   );
